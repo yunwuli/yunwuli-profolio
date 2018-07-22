@@ -40,18 +40,17 @@ section {
 }
 
 section h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 5px
 }
 
 section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 @media (min-width:768px) {
@@ -61,7 +60,7 @@ section h3.section-subheading {
 }
 
 .btn {
-    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
     font-weight: 700
 }
 
@@ -118,12 +117,12 @@ img::-moz-selection {
     color: #fff;
     border: 0;
     background-color: rgb(64, 67, 90)6;
-    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 #mainNav .navbar-brand {
-    color: rgb(64, 67, 90);
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 #mainNav .navbar-brand.active,
@@ -139,7 +138,7 @@ img::-moz-selection {
     padding: .75em 0;
     letter-spacing: 1px;
     color: #fff;
-    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -197,10 +196,9 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -208,7 +206,7 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 @media (min-width:768px) {
@@ -218,17 +216,16 @@ header.masthead .intro-text .intro-heading {
     }
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
-        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+        font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
     }
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+        font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
     }
 }
 
@@ -300,9 +297,8 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     font-size: 16px;
-    font-style: italic;
     margin: 0;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 #portfolio * {
@@ -339,10 +335,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -602,14 +597,14 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-    background-color: #212529;
+    background-color: #ffffff;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
 section#contact .section-heading {
-    color: #fff
+    color: #212529
 }
 
 section#contact .form-group {
