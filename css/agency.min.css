@@ -77,14 +77,14 @@ section h3.section-subheading {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: rgb(64, 67, 90) !important;
+    background-color: rgb(74, 84, 138) !important;
     border-color: rgb(64, 67, 90) !important;
     color: #fff
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
+    box-shadow: 0 0 0 .2rem #fff !important
 }
 
 ::-moz-selection {
@@ -116,7 +116,7 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: rgb(64, 67, 90)6;
+    background-color: rgb(64, 67, 90);
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
@@ -129,7 +129,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: rgb(64, 67, 90)
+    color: rgb(0, 0, 0)
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -137,13 +137,13 @@ img::-moz-selection {
     font-weight: 400;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(64, 67, 90)
+    color: rgb(192, 192, 192)
 }
 
 @media (min-width:992px) {
@@ -168,7 +168,7 @@ img::-moz-selection {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #212529
+        background-color: rgb(66, 66, 66)
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
