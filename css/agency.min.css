@@ -156,20 +156,24 @@ img::-moz-selection {
         border: none;
         background-color: transparent
     }
+
     #mainNav .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
     }
+
     #mainNav .navbar-nav .nav-item .nav-link {
         padding: 1.1em 1em !important
     }
+
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
         background-color: rgb(66, 66, 66)
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0
@@ -214,12 +218,14 @@ header.masthead .intro-text .intro-heading {
         padding-top: 300px;
         padding-bottom: 200px
     }
+
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px;
         font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
     }
+
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
@@ -388,6 +394,34 @@ header.masthead .intro-text .intro-heading {
     background-color: #212529
 }
 
+.video-container {
+
+    position: relative;
+
+    padding-bottom: 56.25%;
+
+    padding-top: 30px;
+
+    height: 0;
+
+    overflow: hidden;
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -505,27 +539,32 @@ header.masthead .intro-text .intro-heading {
     .timeline:before {
         left: 50%
     }
+
     .timeline>li {
         min-height: 100px;
         margin-bottom: 100px
     }
+
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
         text-align: right
     }
+
     .timeline>li .timeline-image {
         left: 50%;
         width: 100px;
         height: 100px;
         margin-left: -50px
     }
+
     .timeline>li .timeline-image h4 {
         font-size: 13px;
         line-height: 18px;
         margin-top: 16px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
@@ -537,19 +576,23 @@ header.masthead .intro-text .intro-heading {
     .timeline>li {
         min-height: 150px
     }
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px
     }
+
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px
     }
+
     .timeline>li .timeline-image h4 {
         font-size: 18px;
         line-height: 26px;
         margin-top: 30px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px
     }
@@ -559,17 +602,21 @@ header.masthead .intro-text .intro-heading {
     .timeline>li {
         min-height: 170px
     }
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px
     }
+
     .timeline>li .timeline-image {
         width: 170px;
         height: 170px;
         margin-left: -85px
     }
+
     .timeline>li .timeline-image h4 {
         margin-top: 40px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
     }
